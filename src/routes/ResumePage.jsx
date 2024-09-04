@@ -15,7 +15,7 @@ const ResumePage = () => {
               </div>
               <hr />
               <Row className="mt-4">
-                <Col md={6}>
+                <Col>
                   <h4>About Me</h4>
                   <p>
                     A passionate frontend developer with experience in creating
@@ -23,10 +23,13 @@ const ResumePage = () => {
                     React, JavaScript, and modern web development tools.
                   </p>
                 </Col>
-                <Col md={6}>
+              </Row>
+              <Row className="mt-4">
+                <Col>
                   <h4>Contact Information</h4>
                   <p>Email: strik241@gmail.com</p>
                   <p>Phone: 010-7127-1089</p>
+                  <p>Github: https://github.com/ChickNostril</p>
                 </Col>
               </Row>
               <Row className="mt-4">
