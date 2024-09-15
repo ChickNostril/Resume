@@ -1,26 +1,24 @@
+// src/App.js
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-
-import Layout from "./components/layout/Layout";
-
+import Layout from "./components/Layout";
 import ResumePage from "./routes/ResumePage";
 import PortfolioPage from "./routes/PortfolioPage";
+import PortfolioDetailPage from "./routes/PortfolioDetailPage";
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route path="/" element={<ResumePage />} />
-            <Route path="/portfolio" element={<PortfolioPage />} />
-          </Route>
-        </Routes>
-      </Router>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route path="" element={<ResumePage />} />
+          <Route path="resume" element={<ResumePage />} />
+          <Route path="portfolio" element={<PortfolioPage />} />
+          <Route path="/portfolio/:id" element={<PortfolioDetailPage />} />
+        </Route>
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;
