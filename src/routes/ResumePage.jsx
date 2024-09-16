@@ -149,7 +149,8 @@ const ResumePage = () => {
                   있습니다.
                 </li>
                 <li>
-                  Session 및 JWT를 사용하여 인증 및 권한을 관리할 수 있습니다.
+                  Cookie 및 Session을 사용하여 인증 및 권한을 관리할 수
+                  있습니다.
                 </li>
               </ul>
             </li>
@@ -182,20 +183,21 @@ const ResumePage = () => {
             <img
               className={styles.projectImage}
               src="/starbucks.png"
-              alt="Commit Mate Screenshot"
+              alt="Starbucks Screenshot"
             />
             <div className={styles.projectText}>
-              <h2>Starbucks 클론 코딩</h2>
+              <h2>스타벅스 홈페이지 클론 코딩</h2>
               <p>
-                Github API를 사용하여 조직의 기여도 상황을 파악하고 협업할 수
-                있는 대시보드
+                스타벅스의 공식 웹사이트를 클론하여 프론트엔드와 백엔드를
+                경험해보기 위한 프로젝트로, 기본적인 웹 디자인부터 게시판 및
+                회원 관리 기능을 구현하였습니다.
               </p>
               <div className={styles.projectDetails}>
                 <p>
                   <strong>기간:</strong> 23.01.01 ~ 23.06.13
                 </p>
                 <p>
-                  <strong>담당:</strong> 웹 프론트엔드 개발
+                  <strong>담당:</strong> 프론트엔드 개발
                 </p>
                 <p>
                   <strong>스택:</strong> Javascript, HTML, CSS, PHP
@@ -205,20 +207,252 @@ const ResumePage = () => {
                 </p>
               </div>
               <ul className={styles.projectTasks}>
-                <li>권한에 따른 페이지 뷰 구분</li>
-                <li>대시보드 구현 (차트 및 그래프 사용)</li>
-                <li>AWS S3, Cloudfront를 이용해 dev 웹 배포</li>
-                <li>Router를 사용한 SPA 개발</li>
+                <li>
+                  HTML, CSS, JavaScript를 사용하여 스타벅스 홈페이지의 UI,UX
+                  클론
+                </li>
+                <li>
+                  PHP를 활용해 게시판 기능을 구현하여 사용자가 게시글 작성,
+                  수정, 삭제
+                </li>
+                <li>
+                  회원가입과 로그인 기능을 통해 사용자 관리 및 세션 관리 추가
+                </li>
               </ul>
             </div>
           </div>
           <div className={styles.projectLinks}>
             <a
-              href="https://commit-mate-portfolio-link.com"
+              href="/portfolio/starbucks"
               target="_blank"
               rel="noopener noreferrer"
             >
               starbucks 포트폴리오 바로가기
+            </a>
+          </div>
+        </div>
+        <div className={styles.projectCard}>
+          <div className={styles.projectContent}>
+            <img
+              className={styles.projectImage}
+              src="/pokemon.png"
+              alt="Pokemon Screenshot"
+            />
+            <div className={styles.projectText}>
+              <h2>포켓몬 도감 사이트</h2>
+              <p>
+                React와 Styled-components를 활용하여 포켓몬 도감을 구현한 개인
+                프로젝트로, 포켓몬 정보 조회 및 필터링 기능을 제공합니다.
+                Firebase를 사용해 OAuth 로그인 및 사이트 배포를 완료하였습니다.
+              </p>
+              <div className={styles.projectDetails}>
+                <p>
+                  <strong>기간:</strong> 23.11.13 ~ 23.12.04
+                </p>
+                <p>
+                  <strong>담당:</strong> 프론트엔드 개발
+                </p>
+                <p>
+                  <strong>스택:</strong> Javascript, React, Styled-Components
+                </p>
+                <p>
+                  <strong>인원:</strong> 개인 프로젝트
+                </p>
+              </div>
+              <ul className={styles.projectTasks}>
+                <li>
+                  React를 사용하여 포켓몬 도감 UI와 데이터를 동적으로 렌더링 및
+                  Styled-components로 스타일링
+                </li>
+                <li>
+                  Firebase Authentication을 통해 Google OAuth 로그인을 구현하여
+                  간편한 사용자 인증 제공
+                </li>
+                <li>Firebase Hosting을 활용하여 프로젝트를 배포</li>
+              </ul>
+            </div>
+          </div>
+          <div className={styles.projectLinks}>
+            <a
+              href="/portfolio/pokemon"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              포켓몬 도감 사이트 포트폴리오 바로가기
+            </a>
+          </div>
+        </div>
+        <div className={styles.projectCard}>
+          <div className={styles.projectContent}>
+            <img
+              className={styles.projectImage}
+              src="/Community.png"
+              alt="Community Screenshot"
+            />
+            <div className={styles.projectText}>
+              <h2>아무 말 대잔치</h2>
+              <p>
+                카카오테크 부트캠프 클라우드 과정 in JEJU의 개인 프로젝트로,
+                Express와 MySQL을 사용한 게시판 사이트를 구현하여 백엔드와
+                데이터베이스의 연동을 경험하고 이해도를 높이기 위한 목적으로
+                진행되었습니다.
+              </p>
+              <div className={styles.projectDetails}>
+                <p>
+                  <strong>기간:</strong> 24.04 ~ 24.07
+                </p>
+                <p>
+                  <strong>담당:</strong> 프론트엔드 개발
+                </p>
+                <p>
+                  <strong>스택:</strong> Javascript, React, Express, MySQL
+                </p>
+                <p>
+                  <strong>인원:</strong> 개인 프로젝트
+                </p>
+              </div>
+              <ul className={styles.projectTasks}>
+                <li>
+                  React를 사용하여 게시판의 프론트엔드를 구현하고 사용자
+                  인터페이스를 직관적으로 설계했습니다.
+                </li>
+                <li>
+                  Express를 활용해 서버를 구축하고, RESTful API를 통해 데이터
+                  요청 및 관리를 처리했습니다.
+                </li>
+                <li>
+                  MySQL을 사용하여 데이터베이스를 설계하고, 게시글의 CRUD 기능을
+                  구현했습니다.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className={styles.projectLinks}>
+            <a
+              href="/portfolio/community"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              아무 말 대잔치 포트폴리오 바로가기
+            </a>
+          </div>
+        </div>
+        <div className={styles.projectCard}>
+          <div className={styles.projectContent}>
+            <img
+              className={styles.projectImage}
+              src="/Hackerton.png"
+              alt="Hackerton Screenshot"
+            />
+            <div className={styles.projectText}>
+              <h2>AI 기반 대화형 장소 추천 시스템</h2>
+              <p>
+                카카오테크 부트캠프 해커톤에서 개발된 프로젝트로, 제주도를
+                여행하는 관광객들이 맞춤형 장소 추천을 받을 수 있도록 AI 기반
+                대화형 시스템을 구현하였습니다. 사용자의 입력을 바탕으로 관심사,
+                나이, 여행 날짜 등을 고려하여 개인화된 추천 서비스를 제공하는
+                것을 목표로 하였습니다.
+              </p>
+              <div className={styles.projectDetails}>
+                <p>
+                  <strong>기간:</strong> 2024.08.05 ~ 2024.08.07
+                </p>
+                <p>
+                  <strong>담당:</strong> 프론트엔드 개발
+                </p>
+                <p>
+                  <strong>스택:</strong> TypeScript, React, Zustand
+                </p>
+                <p>
+                  <strong>인원:</strong> 총 5명 (클라우드 1명, BE 2명, FE 2명)
+                </p>
+              </div>
+              <ul className={styles.projectTasks}>
+                <li>
+                  사용자의 기초 정보를 입력받아 (인원 수, 나이, 관심사, 여행
+                  날짜 등) AI 질문을 생성합니다.
+                </li>
+                <li>
+                  대화형 인터페이스를 통해 사용자가 AI와 상호작용하며 추가
+                  질문을 통해 정보를 구체화합니다.
+                </li>
+                <li>
+                  비짓제주 관광 공공 데이터를 활용하여 최종적으로 사용자에게
+                  적합한 관광 정보를 추천합니다. 프롬프트 엔지니어링을 통해 AI가
+                  정확한 정보를 제공하도록 설계되었습니다.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className={styles.projectLinks}>
+            <a
+              href="/portfolio/hackerton"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              AI 기반 대화형 장소 추천 시스템 포트폴리오 바로가기
+            </a>
+          </div>
+        </div>
+        <div className={styles.projectCard}>
+          <div className={styles.projectContent}>
+            <img
+              className={styles.projectImage}
+              src="/pokemon.png"
+              alt="sumda Screenshot"
+            />
+            <div className={styles.projectText}>
+              <h2>숨 쉬는 다람쥐 숨다</h2>
+              <p>
+                공공 데이터 API를 활용하여 날씨와 대기질 정보를 제공하는 웹
+                서비스로, 사용자에게 실시간 환경 정보를 제공합니다. 또한, 다람쥐
+                육성 게이미피케이션 요소를 통해 사용자가 다양한 종류의 다람쥐를
+                육성하며 일일 미션을 수행할 수 있는 기능을 구현하였습니다.
+              </p>
+              <div className={styles.projectDetails}>
+                <p>
+                  <strong>기간:</strong> 24.07.22 ~ 24.09.13
+                </p>
+                <p>
+                  <strong>담당:</strong> 프론트엔드 개발
+                </p>
+                <p>
+                  <strong>스택:</strong> TypeScript, React, CSS, Zustand
+                </p>
+                <p>
+                  <strong>인원:</strong> 총 5명 (FE 2명, BE 3명)
+                </p>
+              </div>
+              <ul className={styles.projectTasks}>
+                <li>
+                  날씨/대기질 정보 제공: 공공 데이터 API를 활용하여 실시간 날씨
+                  및 대기질 정보를 조회할 수 있는 서비스를 구현하였습니다.
+                </li>
+                <li>
+                  상태 관리: Zustand를 사용하여 전역 상태 관리를 구현하여
+                  데이터의 일관성과 효율적인 업데이트를 보장하였습니다.
+                </li>
+                <li>
+                  인증/인가 기능: Kakao OAuth를 통해 사용자가 로그인할 수 있도록
+                  하였으며, 로그인 시 JWT 토큰을 발급하고 이를 통해 사용자별
+                  다람쥐 정보를 불러옵니다.
+                </li>
+                <li>
+                  게이미피케이션: 사용자는 다양한 종류의 다람쥐 (예: 사무라이
+                  다람쥐, 기사 다람쥐 등)를 육성할 수 있으며, 일일 미션을
+                  완료하여 도토리를 획득하고 다람쥐를 성장시키는 시스템을
+                  구현하였습니다.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className={styles.projectLinks}>
+            <a
+              href="/portfolio/sumda"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              숨 쉬는 다람쥐 숨다 포트폴리오 바로가기
             </a>
           </div>
         </div>

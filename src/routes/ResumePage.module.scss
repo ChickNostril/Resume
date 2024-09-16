@@ -281,18 +281,24 @@
       }
 
       .projectLinks {
-        margin-top: 15px;
+        width: 40%;
+        margin: 15px auto 0 auto;
         text-align: center; /* 가운데 정렬 */
-
+        background: #f9f9f9;
+        padding: 10px 15px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition:
+          transform 0.3s ease,
+          box-shadow 0.3s ease;
         a {
           font-size: 14px;
-          color: #0073e6;
+          color: #444;
           text-decoration: none;
           margin: 0 10px;
-
-          &:hover {
-            text-decoration: underline;
-          }
+        }
+        &:hover {
+          transform: translateZ(20px) scale(1.05);
         }
       }
     }
