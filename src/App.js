@@ -8,7 +8,7 @@ import PortfolioDetailPage from "./routes/PortfolioDetailPage";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/Resume">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="" element={<ResumePage />} />
