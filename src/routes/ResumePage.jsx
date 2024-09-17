@@ -19,11 +19,11 @@ const ResumePage = () => {
             <h3>Github</h3>
             <p>
               <a
-                href="https://github.com/Harfe0626"
+                href="https://github.com/ChickNostril"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://github.com/Harfe0626
+                https://github.com/ChickNostril
               </a>
             </p>
           </div>
@@ -34,12 +34,19 @@ const ResumePage = () => {
         <h1>Introduce</h1>
         <h3>성장하기 위해 끊임없이 노력하는 주니어 FE 개발자 신정엽 입니다.</h3>
         <p>
-          저는 최신 웹 기술과 트렌드를 꾸준히 학습하며, 실제 프로젝트에 적용하는
-          것을 통해 실력을 쌓아가고 있습니다. 특히 React와 Vue.js와 같은
-          프레임워크에 대한 이해와 활용에 노력을 기울이고 있으며, 사용자 경험을
-          최우선으로 생각하는 UI/UX 디자인에도 많은 관심을 기울이고 있습니다.
-          앞으로도 새로운 도전에 적극적으로 임하며, 보다 나은 개발자가 되기 위해
-          지속적으로 노력할 것입니다. 감사합니다.
+          최신 웹 기술과 트렌드를 꾸준히 학습하며, 이를 실제 프로젝트에
+          적용해가며 실력을 쌓고 있습니다.
+          <br />
+          React를 활용하여 여러 프로젝트를 성공적으로 수행한 경험이 있으며, 특히
+          사용자 경험을 최우선으로 고려한 UI/UX 디자인에 깊은 관심을 가지고
+          있습니다.
+          <br />
+          최근에는 다양한 팀 프로젝트와 개인 프로젝트를 통해 효율적인 상태
+          관리와 데이터 처리를 구현하였고, 사용자가 편리하게 이용할 수 있는
+          인터페이스를 설계했습니다.
+          <br />
+          앞으로도 새로운 도전에 적극적으로 임하며, 지속적인 학습과 성장을 통해
+          더 나은 개발자가 되기 위해 노력하겠습니다. 감사합니다.
         </p>
       </div>
 
@@ -83,8 +90,8 @@ const ResumePage = () => {
           <h2>Front-end</h2>
           <ul>
             <li>
-              <strong>HTML</strong>: 웹 페이지 구조를 설계하고 구성할 수
-              있습니다.
+              <strong>HTML</strong>: 웹 페이지의 구조를 설계하고 효율적으로
+              구성할 수 있습니다.
             </li>
             <li>
               <strong>CSS</strong>:
@@ -93,7 +100,9 @@ const ResumePage = () => {
                   다양한 레이아웃 기법을 사용하여 반응형 웹 디자인을 구현할 수
                   있습니다.
                 </li>
-                <li>모듈화된 스타일시트를 작성할 수 있습니다.</li>
+                <li>
+                  모듈화된 스타일시트를 작성하여 유지보수성을 높일 수 있습니다.
+                </li>
               </ul>
             </li>
             <li>
@@ -102,16 +111,22 @@ const ResumePage = () => {
                 <li>
                   비동기 처리를 위해 Promise와 async/await을 사용할 수 있습니다.
                 </li>
-                <li>모듈화를 통해 function간 결합도를 낮출 수 있습니다.</li>
-                <li>상황에 따라 적절한 이벤트 리스너를 사용할 수 있습니다.</li>
-                <li>무한 스크롤 및 페이지네이션을 구현할 수 있습니다.</li>
+                <li>
+                  모듈화를 통해 함수 간의 결합도를 낮추고 재사용성을 높일 수
+                  있습니다.
+                </li>
+                <li>
+                  상황에 따라 적절한 이벤트 리스너를 선택하여 사용할 수
+                  있습니다.
+                </li>
               </ul>
             </li>
             <li>
               <strong>Typescript</strong>:
               <ul>
                 <li>
-                  정적 타입을 사용하여 코드의 안정성을 향상시킬 수 있습니다.
+                  정적 타입을 사용하여 코드의 안정성과 가독성을 향상시킬 수
+                  있습니다.
                 </li>
                 <li>인터페이스와 제네릭으로 타입 검사를 할 수 있습니다.</li>
               </ul>
@@ -127,7 +142,11 @@ const ResumePage = () => {
                   React Hooks를 사용하여 함수형 컴포넌트 상태를 관리할 수
                   있습니다.
                 </li>
-                <li>복잡한 상태 변화롤 효과적으로 관리할 수 있습니다.</li>
+                <li>
+                  Zustand와 같은 상태 관리 도구를 사용하여 전역 상태를
+                  효율적으로 관리하고, 복잡한 상태 변화를 효과적으로 처리할 수
+                  있습니다.
+                </li>
               </ul>
             </li>
           </ul>
@@ -139,17 +158,19 @@ const ResumePage = () => {
             <li>
               <strong>express</strong>:
               <ul>
-                <li>CRUD 기능을 구현할 수 있습니다.</li>
                 <li>
-                  Entity-Relationship Diagram을 통해 데이터베이스 구조를
-                  효율적으로 설계할 수 있습니다.
+                  CRUD 기능을 포함한 RESTful API를 설계하고 구현할 수 있습니다.
+                </li>
+                <li>
+                  Entity-Relationship Diagram을 통해 효율적인 데이터베이스
+                  구조를 설계할 수 있습니다.
                 </li>
                 <li>
                   Express.js를 사용하여 웹 서버를 설정하고 REST API를 설계할 수
                   있습니다.
                 </li>
                 <li>
-                  Cookie 및 Session을 사용하여 인증 및 권한을 관리할 수
+                  Cookie 및 Session을 사용해 사용자 인증 및 권한을 관리할 수
                   있습니다.
                 </li>
               </ul>
@@ -163,14 +184,22 @@ const ResumePage = () => {
             <li>
               <strong>Git</strong>:
               <ul>
-                <li>코드 버전 관리 및 협업을 할 수 있습니다.</li>
-                <li>브랜치 전략을 사용할 수 있습니다.</li>
-                <li>Github을 통해 코드를 리뷰 및 협업을 할 수 있습니다.</li>
+                <li>
+                  코드 버전 관리를 통해 팀원들과의 협업을 효율적으로 진행할 수
+                  있습니다.
+                </li>
+                <li>
+                  브랜치 전략을 활용해 협업 시 충돌을 최소화할 수 있습니다.
+                </li>
+                <li>
+                  GitHub을 통해 코드 리뷰 및 피드백을 받고, 협업을 원활하게
+                  진행할 수 있습니다.
+                </li>
               </ul>
             </li>
             <li>
-              <strong>Notion</strong>: 팀 커뮤니케이션 및 실시간으로 협업할 수
-              있습니다.
+              <strong>Notion</strong>: 팀 커뮤니케이션을 효율적으로 관리하고,
+              실시간으로 협업할 수 있는 환경을 제공합니다.
             </li>
           </ul>
         </div>
@@ -180,11 +209,20 @@ const ResumePage = () => {
         <h1>Projects</h1>
         <div className={styles.projectCard}>
           <div className={styles.projectContent}>
-            <img
-              className={styles.projectImage}
-              src="/starbucks.png"
-              alt="Starbucks Screenshot"
-            />
+            <div>
+              <img
+                className={styles.projectImage}
+                src="/starbucks/starbucks.png"
+                alt="Starbucks Screenshot"
+              />
+              <a
+                href="https://github.com/ChickNostril/Starbucks"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://github.com/ChickNostril/Starbucks
+              </a>
+            </div>
             <div className={styles.projectText}>
               <h2>스타벅스 홈페이지 클론 코딩</h2>
               <p>
@@ -204,6 +242,16 @@ const ResumePage = () => {
                 </p>
                 <p>
                   <strong>인원:</strong> 개인 프로젝트
+                </p>
+                <p>
+                  <strong>기능 시연 URL :</strong>{" "}
+                  <a
+                    href="https://www.notion.so/Starbucks-e45847f776394c04afd4b7738376a924"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    https://www.notion.so/Starbucks-e45847f776394c04afd4b7738376a924
+                  </a>
                 </p>
               </div>
               <ul className={styles.projectTasks}>
@@ -233,11 +281,20 @@ const ResumePage = () => {
         </div>
         <div className={styles.projectCard}>
           <div className={styles.projectContent}>
-            <img
-              className={styles.projectImage}
-              src="/pokemon.png"
-              alt="Pokemon Screenshot"
-            />
+            <div>
+              <img
+                className={styles.projectImage}
+                src="/pokemon/pokemon.png"
+                alt="Pokemon Screenshot"
+              />
+              <a
+                href="https://github.com/ChickNostril/PokeAPI"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://github.com/ChickNostril/PokeAPI
+              </a>
+            </div>
             <div className={styles.projectText}>
               <h2>포켓몬 도감 사이트</h2>
               <p>
@@ -257,6 +314,16 @@ const ResumePage = () => {
                 </p>
                 <p>
                   <strong>인원:</strong> 개인 프로젝트
+                </p>
+                <p>
+                  <strong>결과 URL :</strong>{" "}
+                  <a
+                    href="https://react-api-app-197f9.firebaseapp.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    https://react-api-app-197f9.firebaseapp.com/
+                  </a>
                 </p>
               </div>
               <ul className={styles.projectTasks}>
@@ -284,11 +351,20 @@ const ResumePage = () => {
         </div>
         <div className={styles.projectCard}>
           <div className={styles.projectContent}>
-            <img
-              className={styles.projectImage}
-              src="/Community.png"
-              alt="Community Screenshot"
-            />
+            <div>
+              <img
+                className={styles.projectImage}
+                src="/community/community.png"
+                alt="community Screenshot"
+              />
+              <a
+                href="https://github.com/ChickNostril/KCS-Community"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://github.com/ChickNostril/KCS-Community
+              </a>
+            </div>
             <div className={styles.projectText}>
               <h2>아무 말 대잔치</h2>
               <p>
@@ -309,6 +385,16 @@ const ResumePage = () => {
                 </p>
                 <p>
                   <strong>인원:</strong> 개인 프로젝트
+                </p>
+                <p>
+                  <strong>기능 시연 URL :</strong>{" "}
+                  <a
+                    href="https://www.notion.so/4330d424e2db4e63b77f26eb76626313"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    https://www.notion.so/4330d424e2db4e63b77f26eb76626313
+                  </a>
                 </p>
               </div>
               <ul className={styles.projectTasks}>
@@ -339,11 +425,20 @@ const ResumePage = () => {
         </div>
         <div className={styles.projectCard}>
           <div className={styles.projectContent}>
-            <img
-              className={styles.projectImage}
-              src="/Hackerton.png"
-              alt="Hackerton Screenshot"
-            />
+            <div>
+              <img
+                className={styles.projectImage}
+                src="/hackerton/Hackerton.png"
+                alt="hackerton Screenshot"
+              />
+              <a
+                href="https://github.com/ZZ3n/startupcode-fe"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://github.com/ZZ3n/startupcode-fe
+              </a>
+            </div>
             <div className={styles.projectText}>
               <h2>AI 기반 대화형 장소 추천 시스템</h2>
               <p>
@@ -365,6 +460,16 @@ const ResumePage = () => {
                 </p>
                 <p>
                   <strong>인원:</strong> 총 5명 (클라우드 1명, BE 2명, FE 2명)
+                </p>
+                <p>
+                  <strong>결과 URL :</strong>{" "}
+                  <a
+                    href="https://kba75f051fb0ea.user-app.krampoline.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    https://kba75f051fb0ea.user-app.krampoline.com/
+                  </a>
                 </p>
               </div>
               <ul className={styles.projectTasks}>
@@ -396,11 +501,20 @@ const ResumePage = () => {
         </div>
         <div className={styles.projectCard}>
           <div className={styles.projectContent}>
-            <img
-              className={styles.projectImage}
-              src="/pokemon.png"
-              alt="sumda Screenshot"
-            />
+            <div>
+              <img
+                className={styles.projectImage}
+                src="/sumda/main.png"
+                alt="sumda Screenshot"
+              />
+              <a
+                href="https://github.com/100-hours-a-week/5-team-daramgil-sumda-fe"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://github.com/100-hours-a-week/5-team-daramgil-sumda-fe
+              </a>
+            </div>
             <div className={styles.projectText}>
               <h2>숨 쉬는 다람쥐 숨다</h2>
               <p>
@@ -421,6 +535,16 @@ const ResumePage = () => {
                 </p>
                 <p>
                   <strong>인원:</strong> 총 5명 (FE 2명, BE 3명)
+                </p>
+                <p>
+                  <strong>결과 URL :</strong>{" "}
+                  <a
+                    href="https://sumda.co.kr"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    https://sumda.co.kr
+                  </a>
                 </p>
               </div>
               <ul className={styles.projectTasks}>

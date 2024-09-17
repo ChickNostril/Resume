@@ -10,7 +10,7 @@ const portfolioItems = [
       "스타벅스 홈페이지를 클론하여 웹 디자인, 게시판, 회원 관리 기능을 구현한 프로젝트",
     period: "23.01.01 ~ 23.06.13",
     role: "프론트엔드 개발",
-    imageUrl: "/starbucks.png",
+    imageUrl: "/starbucks/starbucks.png",
     detailLink: "/portfolio/starbucks",
   },
   {
@@ -20,7 +20,7 @@ const portfolioItems = [
       "React와 Styled-components로 도감 구현 및 Firebase로 OAuth 로그인 및 배포를 완료한 개인 프로젝트",
     period: "23.11.13 ~ 23.12.04",
     role: "프론트엔드 개발",
-    imageUrl: "/pokemon.png",
+    imageUrl: "/pokemon/pokemon.png",
     detailLink: "/portfolio/pokemon",
   },
   {
@@ -30,7 +30,7 @@ const portfolioItems = [
       "Express와 MySQL로 게시판 사이트를 구현하여 백엔드와 데이터베이스 연동을 구현한 카카오테크 부트캠프 개인 프로젝트",
     period: "24.04 ~ 24.07",
     role: "프론트엔드 개발",
-    imageUrl: "/Community.png",
+    imageUrl: "/community/community.png",
     detailLink: "/portfolio/community",
   },
   {
@@ -40,7 +40,7 @@ const portfolioItems = [
       "카카오테크 부트캠프 해커톤에서 제주 관광객을 위한 AI 기반으로 맞춤형 장소 추천을 제공하는 대화형 시스템",
     period: "2024.08.05 ~ 2024.08.07",
     role: "프론트엔드 개발",
-    imageUrl: "/Hackerton.png",
+    imageUrl: "/hackerton/Hackerton.png",
     detailLink: "/portfolio/hackerton",
   },
   {
@@ -50,10 +50,9 @@ const portfolioItems = [
       "공공 데이터 API를 활용해 실시간 날씨와 대기질 정보 제공 및 다람쥐 육성 게이미피케이션 기능을 포함한 웹 서비스",
     period: "24.07.22 ~ 24.09.13",
     role: "프론트엔드 개발",
-    imageUrl: "/starbucks.png",
+    imageUrl: "/sumda/main.png",
     detailLink: "/portfolio/sumda",
   },
-  // 다른 포트폴리오 아이템들 추가
 ];
 
 const PortfolioPage = () => {
