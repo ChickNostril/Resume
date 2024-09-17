@@ -1,5 +1,6 @@
 // src/routes/ResumePage.jsx
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from "./ResumePage.module.scss";
 
 const ResumePage = () => {
@@ -8,7 +9,11 @@ const ResumePage = () => {
       <h1 className={styles.title}>신정엽 | 이력서</h1>
       <div className={styles.aboutMe}>
         <div className={styles.information}>
-          <img className={styles.idPhoto} src="/IdPhoto.jpeg" alt="ID Photo" />
+          <img
+            className={styles.idPhoto}
+            src={`${process.env.PUBLIC_URL}/IdPhoto.jpeg`}
+            alt="ID Photo"
+          />
         </div>
         <div className={styles.info}>
           <div className={styles.contact}>
@@ -212,7 +217,7 @@ const ResumePage = () => {
             <div>
               <img
                 className={styles.projectImage}
-                src="/starbucks/starbucks.png"
+                src={`${process.env.PUBLIC_URL}/starbucks/starbucks.png`}
                 alt="Starbucks Screenshot"
               />
               <a
@@ -270,13 +275,7 @@ const ResumePage = () => {
             </div>
           </div>
           <div className={styles.projectLinks}>
-            <a
-              href="/portfolio/starbucks"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              starbucks 포트폴리오 바로가기
-            </a>
+            <Link to="/portfolio/starbucks">스타벅스 포트폴리오 바로가기</Link>
           </div>
         </div>
         <div className={styles.projectCard}>
@@ -284,7 +283,7 @@ const ResumePage = () => {
             <div>
               <img
                 className={styles.projectImage}
-                src="/pokemon/pokemon.png"
+                src={`${process.env.PUBLIC_URL}/pokemon/pokemon.png`}
                 alt="Pokemon Screenshot"
               />
               <a
@@ -340,13 +339,9 @@ const ResumePage = () => {
             </div>
           </div>
           <div className={styles.projectLinks}>
-            <a
-              href="/portfolio/pokemon"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <Link to="/portfolio/pokemon">
               포켓몬 도감 사이트 포트폴리오 바로가기
-            </a>
+            </Link>
           </div>
         </div>
         <div className={styles.projectCard}>
@@ -354,7 +349,7 @@ const ResumePage = () => {
             <div>
               <img
                 className={styles.projectImage}
-                src="/community/community.png"
+                src={`${process.env.PUBLIC_URL}/community/community.png`}
                 alt="community Screenshot"
               />
               <a
@@ -414,13 +409,9 @@ const ResumePage = () => {
             </div>
           </div>
           <div className={styles.projectLinks}>
-            <a
-              href="/portfolio/community"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <Link to="/portfolio/community">
               아무 말 대잔치 포트폴리오 바로가기
-            </a>
+            </Link>
           </div>
         </div>
         <div className={styles.projectCard}>
@@ -428,7 +419,7 @@ const ResumePage = () => {
             <div>
               <img
                 className={styles.projectImage}
-                src="/hackerton/Hackerton.png"
+                src={`${process.env.PUBLIC_URL}/hackerton/Hackerton.png`}
                 alt="hackerton Screenshot"
               />
               <a
@@ -490,13 +481,9 @@ const ResumePage = () => {
             </div>
           </div>
           <div className={styles.projectLinks}>
-            <a
-              href="/portfolio/hackerton"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <Link to="/portfolio/hackerton">
               AI 기반 대화형 장소 추천 시스템 포트폴리오 바로가기
-            </a>
+            </Link>
           </div>
         </div>
         <div className={styles.projectCard}>
@@ -504,7 +491,7 @@ const ResumePage = () => {
             <div>
               <img
                 className={styles.projectImage}
-                src="/sumda/main.png"
+                src={`${process.env.PUBLIC_URL}/sumda/main.png`}
                 alt="sumda Screenshot"
               />
               <a
@@ -571,13 +558,9 @@ const ResumePage = () => {
             </div>
           </div>
           <div className={styles.projectLinks}>
-            <a
-              href="/portfolio/sumda"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              숨 쉬는 다람쥐 숨다 포트폴리오 바로가기
-            </a>
+            <Link to="/portfolio/sumda">
+              숨쉬는 다람쥐 숨다 포트폴리오 바로가기
+            </Link>
           </div>
         </div>
       </div>

@@ -7,10 +7,10 @@ const portfolioDetails = {
   starbucks: {
     title: "스타벅스 홈페이지 클론 코딩",
     imageUrl: [
-      "/starbucks/login.png",
-      "/starbucks/signup2.png",
-      "/starbucks/notice.png",
-      "/starbucks/noticeDetail.png",
+      `${process.env.PUBLIC_URL}/starbucks/login.png`,
+      `${process.env.PUBLIC_URL}/starbucks/signup2.png`,
+      `${process.env.PUBLIC_URL}/starbucks/notice.png`,
+      `${process.env.PUBLIC_URL}/starbucks/noticeDetail.png`,
     ],
     description:
       "스타벅스 홈페이지를 클론하여 웹 디자인, 게시판, 회원 관리 기능을 구현한 프로젝트입니다.",
@@ -52,9 +52,9 @@ const portfolioDetails = {
   pokemon: {
     title: "포켓몬 도감 사이트",
     imageUrl: [
-      "/pokemon/pokemon.png",
-      "/pokemon/pokemonInfo.png",
-      "/pokemon/pokemonStatus.png",
+      `${process.env.PUBLIC_URL}/pokemon/pokemon.png`,
+      `${process.env.PUBLIC_URL}/pokemon/pokemonInfo.png`,
+      `${process.env.PUBLIC_URL}/pokemon/pokemonStatus.png`,
     ],
     description:
       "React와 Styled-components로 도감 구현 및 Firebase로 OAuth 로그인 및 배포를 완료한 개인 프로젝트",
@@ -98,9 +98,9 @@ const portfolioDetails = {
   community: {
     title: "아무 말 대잔치",
     imageUrl: [
-      "/community/community.png",
-      "/community/userEdit.png",
-      "/community/noticeDetail.png",
+      `${process.env.PUBLIC_URL}/community/community.png`,
+      `${process.env.PUBLIC_URL}/community/userEdit.png`,
+      `${process.env.PUBLIC_URL}/community/noticeDetail.png`,
     ],
     description:
       "Express와 MySQL로 게시판 사이트를 구현하여 백엔드와 데이터베이스 연동을 구현한 카카오테크 부트캠프 개인 프로젝트",
@@ -144,9 +144,9 @@ const portfolioDetails = {
   hackerton: {
     title: "AI 기반 대화형 장소 추천 시스템",
     imageUrl: [
-      "/hackerton/hackerton.png",
-      "/hackerton/form.png",
-      "/hackerton/formtag.png",
+      `${process.env.PUBLIC_URL}/hackerton/hackerton.png`,
+      `${process.env.PUBLIC_URL}/hackerton/form.png`,
+      `${process.env.PUBLIC_URL}/hackerton/formtag.png`,
     ],
     description:
       "카카오테크 부트캠프 해커톤에서 제주 관광객을 위한 AI 기반으로 맞춤형 장소 추천을 제공하는 대화형 시스템",
@@ -204,10 +204,10 @@ const portfolioDetails = {
   sumda: {
     title: "숨쉬는 다람쥐 숨다",
     imageUrl: [
-      "/sumda/weather.png",
-      "/sumda/aqi.png",
-      "/sumda/squirrel.png",
-      "/sumda/dailyMission.png",
+      `${process.env.PUBLIC_URL}/sumda/weather.png`,
+      `${process.env.PUBLIC_URL}/sumda/aqi.png`,
+      `${process.env.PUBLIC_URL}/sumda/squirrel.png`,
+      `${process.env.PUBLIC_URL}/sumda/dailyMission.png`,
     ],
     description:
       "공공 데이터 API를 활용해 실시간 날씨와 대기질 정보 제공 및 다람쥐 육성 게이미피케이션 기능을 포함한 웹 서비스",
