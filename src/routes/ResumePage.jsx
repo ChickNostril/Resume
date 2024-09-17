@@ -214,7 +214,7 @@ const ResumePage = () => {
         <h1>Projects</h1>
         <div className={styles.projectCard}>
           <div className={styles.projectContent}>
-            <div>
+            <div className={styles.projectInfo}>
               <img
                 className={styles.projectImage}
                 src={`${process.env.PUBLIC_URL}/starbucks/starbucks.png`}
@@ -280,7 +280,7 @@ const ResumePage = () => {
         </div>
         <div className={styles.projectCard}>
           <div className={styles.projectContent}>
-            <div>
+            <div className={styles.projectInfo}>
               <img
                 className={styles.projectImage}
                 src={`${process.env.PUBLIC_URL}/pokemon/pokemon.png`}
@@ -346,10 +346,10 @@ const ResumePage = () => {
         </div>
         <div className={styles.projectCard}>
           <div className={styles.projectContent}>
-            <div>
+            <div className={styles.projectInfo}>
               <img
                 className={styles.projectImage}
-                src={`${process.env.PUBLIC_URL}/community/community.png`}
+                src={`${process.env.PUBLIC_URL}/community/Community.png`}
                 alt="community Screenshot"
               />
               <a
@@ -416,7 +416,7 @@ const ResumePage = () => {
         </div>
         <div className={styles.projectCard}>
           <div className={styles.projectContent}>
-            <div>
+            <div className={styles.projectInfo}>
               <img
                 className={styles.projectImage}
                 src={`${process.env.PUBLIC_URL}/hackerton/Hackerton.png`}
@@ -488,7 +488,7 @@ const ResumePage = () => {
         </div>
         <div className={styles.projectCard}>
           <div className={styles.projectContent}>
-            <div>
+            <div className={styles.projectInfo}>
               <img
                 className={styles.projectImage}
                 src={`${process.env.PUBLIC_URL}/sumda/main.png`}

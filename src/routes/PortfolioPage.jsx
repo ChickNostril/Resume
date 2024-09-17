@@ -30,7 +30,7 @@ const portfolioItems = [
       "Express와 MySQL로 게시판 사이트를 구현하여 백엔드와 데이터베이스 연동을 구현한 카카오테크 부트캠프 개인 프로젝트",
     period: "24.04 ~ 24.07",
     role: "프론트엔드 개발",
-    imageUrl: `${process.env.PUBLIC_URL}/community/community.png`,
+    imageUrl: `${process.env.PUBLIC_URL}/community/Community.png`,
     detailLink: "/portfolio/community",
   },
   {

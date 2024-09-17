@@ -98,7 +98,7 @@ const portfolioDetails = {
   community: {
     title: "아무 말 대잔치",
     imageUrl: [
-      `${process.env.PUBLIC_URL}/community/community.png`,
+      `${process.env.PUBLIC_URL}/community/Community.png`,
       `${process.env.PUBLIC_URL}/community/userEdit.png`,
       `${process.env.PUBLIC_URL}/community/noticeDetail.png`,
     ],
@@ -144,7 +144,7 @@ const portfolioDetails = {
   hackerton: {
     title: "AI 기반 대화형 장소 추천 시스템",
     imageUrl: [
-      `${process.env.PUBLIC_URL}/hackerton/hackerton.png`,
+      `${process.env.PUBLIC_URL}/hackerton/Hackerton.png`,
       `${process.env.PUBLIC_URL}/hackerton/form.png`,
       `${process.env.PUBLIC_URL}/hackerton/formtag.png`,
     ],
@@ -207,7 +207,7 @@ const portfolioDetails = {
       `${process.env.PUBLIC_URL}/sumda/weather.png`,
       `${process.env.PUBLIC_URL}/sumda/aqi.png`,
       `${process.env.PUBLIC_URL}/sumda/squirrel.png`,
-      `${process.env.PUBLIC_URL}/sumda/dailyMission.png`,
+      `${process.env.PUBLIC_URL}/sumda/dailymission.png`,
     ],
     description:
       "공공 데이터 API를 활용해 실시간 날씨와 대기질 정보 제공 및 다람쥐 육성 게이미피케이션 기능을 포함한 웹 서비스",
