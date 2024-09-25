@@ -1,13 +1,12 @@
 // src/components/Layout.module.scss
 .layout {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  
-  .main {
-    flex: 1;
-    padding: 40px;
-    background-color: #ebebeb;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1;
+  padding: 40px 150px;
+  background-color: #ebebeb;
+}

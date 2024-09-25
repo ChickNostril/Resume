@@ -50,7 +50,7 @@ const portfolioItems = [
       "공공 데이터 API를 활용해 실시간 날씨와 대기질 정보 제공 및 다람쥐 육성 게이미피케이션 기능을 포함한 웹 서비스",
     period: "24.07.22 ~ 24.09.13",
     role: "프론트엔드 개발",
-    imageUrl: `${process.env.PUBLIC_URL}/sumda/main.png`,
+    imageUrl: `${process.env.PUBLIC_URL}/sumda/sumda-final.png`,
     detailLink: "/portfolio/sumda",
   },
 ];
