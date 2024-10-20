@@ -254,7 +254,7 @@ const ResumePage = () => {
           <div className={styles.projectLinks}>
             <Link to="/portfolio/sumda">숨쉬는 다람쥐 숨다 포트폴리오</Link>
             <a
-              href="https://sumda.co.kr"
+              href="https://www.canva.com/design/DAGS9yrQEfk/f-B0GbF_yLyY3kCt5tN4Vg/edit?utm_content=DAGS9yrQEfk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
               target="_blank"
               rel="noopener noreferrer"
             >
