@@ -2,6 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./ResumePage.module.scss";
+import projects from "../data/projects.json";
 
 const ResumePage = () => {
   return (
@@ -117,6 +118,23 @@ const ResumePage = () => {
               </ul>
             </li>
             <li>
+              <strong>Three.js & @react-three/fiber (R3F)</strong>:
+              <ul>
+                <li>
+                  Three.js를 통해 WebGL 기반의 3D 그래픽과 애니메이션을 개발할
+                  수 있습니다.
+                </li>
+                <li>
+                  @react-three/fiber를 사용하여 React 환경에서 Three.js의 기능을
+                  더 간결하게 활용할 수 있습니다.
+                </li>
+                <li>
+                  복잡한 3D 모델을 로드하고, 실시간 상호작용 및 사용자 정의
+                  애니메이션을 추가할 수 있습니다.
+                </li>
+              </ul>
+            </li>
+            <li>
               <strong>HTML</strong>: 웹 페이지의 구조를 설계하고 효율적으로
               구성할 수 있습니다.
             </li>
@@ -158,6 +176,23 @@ const ResumePage = () => {
                 </li>
               </ul>
             </li>
+            <li>
+              <strong>FastAPI</strong>:
+              <ul>
+                <li>
+                  Python 기반의 FastAPI를 사용하여 고성능 RESTful API를 설계하고
+                  구현할 수 있습니다.
+                </li>
+                <li>
+                  비동기 처리(Async/Await)를 통해 빠르고 확장 가능한 서버를
+                  구축할 수 있습니다.
+                </li>
+                <li>
+                  자동화된 API 문서를 활용하여 개발 및 테스트를 간소화할 수
+                  있습니다.
+                </li>
+              </ul>
+            </li>
           </ul>
         </div>
 
@@ -178,6 +213,11 @@ const ResumePage = () => {
                   GitHub을 통해 코드 리뷰 및 피드백을 받고, 협업을 원활하게
                   진행할 수 있습니다.
                 </li>
+                <li>
+                  GitHub Enterprise를 사용해 사내 전용 GitHub 페이지를 통해 코드
+                  관리를 수행하고, 보안이 강화된 환경에서 협업한 경험이
+                  있습니다.
+                </li>
               </ul>
             </li>
             <li>
@@ -188,8 +228,81 @@ const ResumePage = () => {
         </div>
       </div>
 
-      <div className={styles.projects}>
+      {/* <div className={styles.projects}>
         <h1>Projects</h1>
+        <div className={styles.projectCard}>
+          <div className={styles.projectContent}>
+            <div className={styles.projectInfo}>
+              <img
+                className={styles.projectImage}
+                src={`${process.env.PUBLIC_URL}/auto-rigger/step3.png`}
+                alt="Auto-Rigger Tool Screenshot"
+              />
+              <a
+                href="https://github.com/ChickNostril/autoRigger"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://github.com/ChickNostril/autoRigger
+              </a>
+            </div>
+            <div className={styles.projectText}>
+              <h2>Auto-Rigger Tool</h2>
+              <p>
+                **Auto-Rigger Tool**은 3D 아티스트, 애니메이터 및 개발자를 위해
+                설계된 웹 기반 3D 리깅 서비스입니다. 사용자는 3D 모델을
+                업로드하고, 크기와 위치를 조정하며, 마커를 배치하여 스켈레톤을
+                생성하고 미리보기할 수 있습니다. 이 서비스는 직관적인 UI와
+                효율적인 워크플로우를 통해 리깅 작업의 생산성을 높이는 것을
+                목표로 합니다.
+              </p>
+              <div className={styles.projectDetails}>
+                <p>
+                  <strong>기간:</strong> 2024.11.12 ~ 2024.11.29
+                </p>
+                <p>
+                  <strong>담당:</strong> 프론트엔드 개발
+                </p>
+                <p>
+                  <strong>스택:</strong> React, Three.js, R3F, Sass, Node.js
+                </p>
+              </div>
+              <ul className={styles.projectTasks}>
+                <li>
+                  **모델 업로드 및 조정**: 사용자가 `.glb` 또는 `.gltf` 형식의
+                  3D 모델을 업로드하고, 크기, 위치, 회전 값을 슬라이더를
+                  사용하여 직관적으로 조정 가능하도록 구현하였습니다.
+                </li>
+                <li>
+                  **마커 배치 및 대칭**: 턱, 어깨, 팔꿈치, 손목 등 주요 관절에
+                  리깅 마커를 배치하고, 좌우 대칭 기능을 통해 작업을
+                  효율화하였습니다.
+                </li>
+                <li>
+                  **스켈레톤 미리보기**: 사용자 배치 데이터를 기반으로
+                  스켈레톤을 생성하여 3D 모델과 함께 미리보기가 가능하도록
+                  구현하였습니다.
+                </li>
+                <li>
+                  **리깅 데이터 생성**: 서버와 통신하여 업로드된 데이터를
+                  기반으로 Blender 스크립트를 실행, 리깅 결과를 `.glb` 파일로
+                  다운로드할 수 있도록 구현하였습니다.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className={styles.projectLinks}>
+            <Link to="/portfolio/auto-rigger">Auto-Rigger Tool 포트폴리오</Link>
+            <a
+              href="https://your-demo-link.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Auto-Rigger Tool 데모
+            </a>
+          </div>
+        </div>
+
         <div className={styles.projectCard}>
           <div className={styles.projectContent}>
             <div className={styles.projectInfo}>
@@ -524,6 +637,72 @@ const ResumePage = () => {
             </a>
           </div>
         </div>
+      </div> */}
+
+      <div className={styles.projects}>
+        <h1>Projects</h1>
+        {projects.map((project) => (
+          <div key={project.id} className={styles.projectCard}>
+            <div className={styles.projectContent}>
+              <div className={styles.projectInfo}>
+                <img
+                  className={styles.projectImage}
+                  src={`${process.env.PUBLIC_URL}${project.image}`}
+                  alt={`${project.title} Screenshot`}
+                />
+                <a
+                  href={project.links.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {project.links.github}
+                </a>
+              </div>
+              <div className={styles.projectText}>
+                <h2>{project.title}</h2>
+                <p>
+                  {project.description.split("\n").map((line, index) => (
+                    <React.Fragment key={index}>
+                      {line}
+                      <br />
+                    </React.Fragment>
+                  ))}
+                </p>
+                <div className={styles.projectDetails}>
+                  <p>
+                    <strong>기간:</strong> {project.period}
+                  </p>
+                  <p>
+                    <strong>담당:</strong> {project.role}
+                  </p>
+                  <p>
+                    <strong>스택:</strong> {project.stack.join(", ")}
+                  </p>
+                  {project.teamSize && (
+                    <p>
+                      <strong>인원:</strong> {project.teamSize}
+                    </p>
+                  )}
+                </div>
+                <ul className={styles.projectTasks}>
+                  {project.tasks.map((task, index) => (
+                    <li key={index}>{task}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+            <div className={styles.projectLinks}>
+              <Link to={project.links.portfolio}>포트폴리오</Link>
+              <a
+                href={project.links.demo}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                결과/데모/시연
+              </a>
+            </div>
+          </div>
+        ))}
       </div>
 
       <div className={styles.timeline}>
@@ -556,6 +735,16 @@ const ResumePage = () => {
           <div className={styles.timelineDate}>2024.10</div>
           <div className={styles.timelineContent}>
             카카오테크 부트캠프 클라우드 과정 in JEJU 수료
+          </div>
+        </div>
+        <div className={styles.timelineItem}>
+          <div className={styles.timelineDate}>2024.11</div>
+          <div className={styles.timelineContent}>엔씨소프트 단기 계약직</div>
+        </div>
+        <div className={styles.timelineItem}>
+          <div className={styles.timelineDate}>2025.02</div>
+          <div className={styles.timelineContent}>
+            엔씨소프트 단기 계약직 계약 종료
           </div>
         </div>
       </div>
