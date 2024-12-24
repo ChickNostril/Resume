@@ -15,7 +15,7 @@
     ],
     "links": {
       "github": "https://github.com/ChickNostril/FA-WebViewer",
-      "portfolio": "/portfolio/fa-webviewer",
+      "portfolio": "/portfolio/faWebViewer",
       "demo": "-"
     },
     "image": "/fa-webviewer/app1_play.png"
@@ -36,7 +36,7 @@
     ],
     "links": {
       "github": "https://github.com/ChickNostril/autoRigger",
-      "portfolio": "/portfolio/auto-rigger",
+      "portfolio": "/portfolio/autoRiggerTool",
       "demo": "https://your-demo-link.com"
     },
     "image": "/auto-rigger/step3.png"
