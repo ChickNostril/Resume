@@ -355,5 +355,66 @@
       "짧은 개발 기간으로 인해 고급 기능(예: 애니메이션 편집) 구현에 한계가 있었음."
     ],
     "conclusion": "FA-WebViewer는 음성 데이터를 기반으로 애니메이션을 생성하고 시각화하는 혁신적인 웹 애플리케이션입니다. 프론트엔드와 백엔드의 긴밀한 협력을 통해 실시간 애니메이션 생성 및 시각화를 성공적으로 구현했으며, 향후 애니메이션 편집 및 확장 기능을 추가하여 사용자 경험을 더욱 향상시킬 계획입니다."
+  },
+
+  "gaussianSplattingViewer": {
+    "title": "Gaussian Splatting Viewer",
+    "imageUrl": [
+      "/gs-viewer/Viewer.png",
+      "/gs-viewer/CreateModal_UI.png",
+      "/gs-viewer/ViewerModal.png",
+      "/gs-viewer/이미지 (12).png"
+    ],
+    "description": "동영상 또는 YouTube URL을 입력받아 Gaussian Splatting 기술을 활용하여 3D 포인트 클라우드 데이터를 생성하고 이를 웹에서 시각화하는 프로젝트.",
+    "overview": {
+      "name": "Gaussian Splatting Viewer",
+      "period": "2024년 11월 28일 ~ 2025년 2월 10일",
+      "role": "프론트엔드 및 백엔드 개발",
+      "stack": "React, Three.js, React-Three/Fiber, SCSS, FastAPI, AWS S3",
+      "team": "FE/BE 1명, GPU 서버 개발 1명, PM 1명"
+    },
+    "motivation": "Gaussian Splatting 기술을 이용하여 동영상을 3D 포인트 클라우드로 변환하고, 이를 실시간으로 웹에서 시각화하는 도구를 제공하기 위해 시작된 프로젝트입니다. React Three Fiber(R3F)와 WebGL을 활용해 실시간 3D 렌더링을 구현하며, FastAPI 및 GPU 서버를 통해 Gaussian Splatting 알고리즘을 실행합니다.",
+    "contributions": [
+      {
+        "title": "프론트엔드 개발",
+        "tasks": [
+          "React와 React-Three/Fiber를 사용하여 3D Viewer 구현 및 Gaussian Splatting 데이터 시각화.",
+          "사용자가 동영상 파일(.mp4, .mov) 업로드 또는 YouTube URL을 입력하여 프로젝트를 생성할 수 있는 기능 개발.",
+          "소스 타입(Fisheye, Equirectangular, Vanilla) 선택 UI 및 데이터 처리 로직 개발.",
+          "줌, 회전, 이동과 같은 사용자 조작 기능이 포함된 WebGL 기반 Viewer 인터페이스 개발.",
+          "반응형 UI 설계 및 SCSS를 활용한 스타일링 최적화."
+        ],
+        "achievements": [
+          "React Three Fiber(R3F)와 WebGL을 결합하여 3D Gaussian Splatting 데이터를 실시간 렌더링 및 시각화.",
+          "사용자 친화적인 프로젝트 생성 및 관리 기능을 통해 직관적인 워크플로우 제공.",
+          "반응형 UI 설계로 다양한 화면 크기에서 최적의 사용자 경험 제공."
+        ]
+      },
+      {
+        "title": "백엔드 및 GPU 서버 연동",
+        "tasks": [
+          "FastAPI 기반 백엔드를 개발하여 프론트엔드와 GPU 서버 간 API 통신 구현.",
+          "AWS S3와 연동하여 사용자가 업로드한 동영상 파일을 저장하고, GPU 서버에서 생성한 .ply 파일을 관리.",
+          "GPU 서버로 데이터를 전송하고 Gaussian Splatting 알고리즘을 실행한 후 결과물을 받아 변환하는 프로세스 개발.",
+          "폴링 방식으로 처리 상태를 확인하는 기존 구조에서 GPU 서버의 콜백 방식을 활용하는 방식으로 개선.",
+          "S3에서 .ply 파일을 다운로드하여 .splat 파일로 변환하는 스크립트 개발."
+        ],
+        "achievements": [
+          "FastAPI와 GPU 서버 간의 효율적인 데이터 통신을 구현하여 Gaussian Splatting 프로세스 최적화.",
+          "AWS S3 스토리지와의 연동을 통해 대용량 동영상 파일 및 결과 데이터를 안정적으로 관리.",
+          "콜백 방식을 적용하여 GPU 서버와의 통신 속도를 개선하고 API 응답 시간을 최적화."
+        ]
+      }
+    ],
+    "positives": [
+      "React Three Fiber(R3F)와 WebGL을 사용하여 대규모 3D Gaussian Splatting 데이터를 효과적으로 렌더링.",
+      "FastAPI 및 AWS S3와 연동하여 대용량 동영상 파일을 안정적으로 처리 가능.",
+      "콜백 방식의 API 응답 구조를 적용하여 GPU 서버 통신의 효율성을 극대화."
+    ],
+    "negatives": [
+      "Gaussian Splatting 알고리즘의 연산 시간이 길어, 대용량 동영상 처리 시 대기 시간이 발생할 수 있음.",
+      "Fisheye 및 Equirectangular 소스 타입의 경우 데이터 변환 과정이 복잡하여 추가적인 최적화 필요함."
+    ],
+    "conclusion": "Gaussian Splatting Viewer는 동영상 데이터를 3D 포인트 클라우드로 변환하고 이를 실시간으로 시각화하는 강력한 도구입니다. 프론트엔드와 백엔드의 긴밀한 연계를 통해 프로젝트 생성, 데이터 변환, 3D 렌더링을 효율적으로 구현했으며, 향후 최적화를 통해 더 빠르고 안정적인 Gaussian Splatting 처리를 제공할 계획입니다."
   }
 }
