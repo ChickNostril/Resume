@@ -357,7 +357,7 @@
     "conclusion": "FA-WebViewer는 음성 데이터를 기반으로 애니메이션을 생성하고 시각화하는 혁신적인 웹 애플리케이션입니다. 프론트엔드와 백엔드의 긴밀한 협력을 통해 실시간 애니메이션 생성 및 시각화를 성공적으로 구현했으며, 향후 애니메이션 편집 및 확장 기능을 추가하여 사용자 경험을 더욱 향상시킬 계획입니다."
   },
 
-  "gaussianSplattingViewer": {
+  "gsViewer": {
     "title": "Gaussian Splatting Viewer",
     "imageUrl": [
       "/gs-viewer/Viewer.png",
