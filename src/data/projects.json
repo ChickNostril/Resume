@@ -26,7 +26,7 @@
     "links": {
       "github": "https://github.com/ChickNostril/GSViewer",
       "portfolio": "/portfolio/gsViewer",
-      "demo": "-"
+      "demo": "https://github.com/ChickNostril/GSViewer"
     },
     "image": "/gs-viewer/Viewer.png"
   },
@@ -47,7 +47,7 @@
     "links": {
       "github": "https://github.com/ChickNostril/FA-WebViewer",
       "portfolio": "/portfolio/faWebViewer",
-      "demo": "-"
+      "demo": "https://github.com/ChickNostril/FA-WebViewer"
     },
     "image": "/fa-webviewer/app1_play.png"
   },
@@ -68,7 +68,7 @@
     "links": {
       "github": "https://github.com/ChickNostril/autoRigger",
       "portfolio": "/portfolio/autoRiggerTool",
-      "demo": "https://your-demo-link.com"
+      "demo": "https://github.com/ChickNostril/autoRigger"
     },
     "image": "/auto-rigger/step3.png"
   },
