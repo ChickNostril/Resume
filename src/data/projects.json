@@ -14,7 +14,7 @@
       "Uvicorn",
       "AWS S3"
     ],
-    "teamSize": "-",
+    "teamSize": "총 5명 (FE/BE 1명, GPU 서버 개발 1명, PM 1명)",
     "tasks": [
       "프로젝트 생성 및 파일 업로드 - 사용자가 동영상(.mp4, .mov) 파일을 업로드하거나 YouTube URL을 입력하여 프로젝트를 생성하고, 소스 타입(FISHEYE, EQUIRECT, VANILLA)을 선택할 수 있도록 구현.",
       "Gaussian Splatting 데이터 처리 - 업로드된 데이터를 GPU 서버에 전송하여 Gaussian Splatting 알고리즘으로 처리하고, 결과를 .ply 파일로 S3에 저장한 후 .splat 파일로 변환하는 기능 구현.",
