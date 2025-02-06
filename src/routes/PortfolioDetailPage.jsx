@@ -18,9 +18,14 @@ const PortfolioDetailPage = () => {
         {detail.imageUrl.map((image, index) => (
           <img
             key={index}
-            src={`${process.env.PUBLIC_URL}${image}`}
+            src={`${process.env.PUBLIC_URL}${
+              image || "https://placehold.co/600x400"
+            }`}
             alt={`${detail.title} 이미지 ${index + 1}`}
             className={styles.detailImage}
+            onError={(e) => {
+              e.target.src = "https://placehold.co/600x400";
+            }}
           />
         ))}
       </div>

@@ -15,9 +15,14 @@ const PortfolioPage = () => {
             className={styles.portfolioCard}
           >
             <img
-              src={`${process.env.PUBLIC_URL}${item.imageUrl}`}
+              src={`${process.env.PUBLIC_URL}${
+                item.imageUrl || "https://placehold.co/320x180"
+              }`}
               alt={`${item.title} 이미지`}
               className={styles.portfolioImage}
+              onError={(e) => {
+                e.target.src = "https://placehold.co/320x180";
+              }}
             />
             <div className={styles.portfolioInfo}>
               <h2>{item.title}</h2>
