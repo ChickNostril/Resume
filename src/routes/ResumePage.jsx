@@ -3,6 +3,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./ResumePage.module.scss";
 import projects from "../data/projects.json";
+import introduceData from "../data/introduce.json";
+import skillsData from "../data/skills.json";
 
 const ResumePage = () => {
   return (
@@ -40,7 +42,7 @@ const ResumePage = () => {
         </div>
       </div>
 
-      <div className={styles.introduce}>
+      {/* <div className={styles.introduce}>
         <h1>Introduce</h1>
         <h3>
           안녕하세요, 프로젝트를 위한 필요한 기술과 경험을 갖춘 주니어
@@ -66,9 +68,18 @@ const ResumePage = () => {
           앞으로도 새로운 도전에 적극적으로 임하며, 지속적인 학습과 성장을 통해
           더 나은 개발자가 되기 위해 노력하겠습니다. 감사합니다.
         </p>
+      </div> */}
+      {/* Introduce Section */}
+      <div className={styles.introduce}>
+        <h1>Introduce</h1>
+        <h3>{introduceData.title}</h3>
+        {introduceData.content.map((paragraph, index) => (
+          <p key={index}>{paragraph}</p>
+        ))}
       </div>
 
-      <div className={styles.skills}>
+      {/* Skills Section */}
+      {/* <div className={styles.skills}>
         <h1>Skills</h1>
         <div className={styles.skillCategory}>
           <h2>Front-end</h2>
@@ -152,7 +163,6 @@ const ResumePage = () => {
             </li>
           </ul>
         </div>
-
         <div className={styles.skillCategory}>
           <h2>Back-end</h2>
           <ul>
@@ -195,7 +205,6 @@ const ResumePage = () => {
             </li>
           </ul>
         </div>
-
         <div className={styles.skillCategory}>
           <h2>협업 도구</h2>
           <ul>
@@ -226,6 +235,26 @@ const ResumePage = () => {
             </li>
           </ul>
         </div>
+      </div> */}
+      <div className={styles.skills}>
+        <h1>{skillsData.title}</h1>
+        {skillsData.categories.map((category, index) => (
+          <div key={index} className={styles.skillCategory}>
+            <h2>{category.category}</h2>
+            <ul>
+              {category.skills.map((skill, skillIndex) => (
+                <li key={skillIndex}>
+                  <strong>{skill.name}</strong>:
+                  <ul>
+                    {skill.details.map((detail, detailIndex) => (
+                      <li key={detailIndex}>{detail}</li>
+                    ))}
+                  </ul>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </div>
 
       <div className={styles.projects}>

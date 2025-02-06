@@ -2,14 +2,14 @@
   {
     "id": 1,
     "title": "08. Gaussian Splatting Viewer",
-    "description": "Gaussian Splatting Viewer는 3D Gaussian Splatting 기술을 사용하여\n동영상 또는 YouTube URL을 입력받아 포인트 클라우드(3D 데이터)를 생성하고\n이를 웹에서 시각화하는 프로젝트입니다.\nReact 기반 프론트엔드와 FastAPI 기반 백엔드로 구성되었으며,\nAWS S3 스토리지를 통해 파일 업로드 및 관리 기능을 지원합니다.\nGPU 서버와의 통신을 통해 Gaussian Splatting 처리를 수행합니다.",
+    "description": "Gaussian Splatting Viewer는 3D Gaussian Splatting 기술을 사용하여\n동영상 또는 YouTube URL을 입력받아 포인트 클라우드(3D 데이터)를 생성하고 이를 웹에서 시각화하는 프로젝트입니다.\nReact 기반 프론트엔드와 FastAPI 기반 백엔드로 구성되었으며, AWS S3 스토리지를 통해 파일 업로드 및 관리 기능을 지원합니다.\nGPU 서버와의 통신을 통해 Gaussian Splatting 처리를 수행합니다.",
     "period": "2024-11-28 ~ 2025-02-10",
     "role": "프론트엔드 및 백엔드 개발",
     "stack": [
       "React",
       "Three.js",
       "R3F",
-      "SCSS",
+      "Sass",
       "FastAPI",
       "Uvicorn",
       "AWS S3"
@@ -36,7 +36,7 @@
     "description": "FA-WebViewer는 사내용 프로젝트 시연용 웹 개발 업무로 수행한 프로젝트로,\n음성 발화 파일(.wav)을 기반으로 애니메이션을 생성하고 이를 시각화하는 기능을 제공하는 웹 애플리케이션입니다.\n3D 모델과 애니메이션 데이터를 효율적으로 처리할 수 있습니다.",
     "period": "2024-12-04 ~ 2024-12-20",
     "role": "프론트엔드 개발",
-    "stack": ["React", "Three.js", "R3F", "SCSS", "FastAPI", "Uvicorn"],
+    "stack": ["React", "Three.js", "R3F", "Sass", "FastAPI", "Uvicorn"],
     "teamSize": "-",
     "tasks": [
       "App1: `.wav` 파일 업로드 및 애니메이션 생성 요청 - 사용자가 Drag & Drop 또는 클릭으로 `.wav` 파일을 업로드하고, FastAPI와 통신하여 애니메이션 데이터를 생성 및 수신하는 기능 구현.",
@@ -57,7 +57,7 @@
     "description": "Auto-Rigger Tool은 웹 페이지 개발 업무의 일환으로 수행한 프로젝트로,\n3D 아티스트, 애니메이터 및 개발자를 위해 설계된 웹 기반 3D 리깅 서비스입니다.\n사용자는 3D 모델을 업로드하고, 크기와 위치를 조정하며, 마커를 배치하여 스켈레톤을 생성하고 미리보기할 수 있습니다.\n이 서비스는 직관적인 UI와 효율적인 워크플로우를 통해 리깅 작업의 생산성을 높이는 것을 목표로 합니다.",
     "period": "2024.11.12 ~ 2024.11.29",
     "role": "프론트엔드 개발",
-    "stack": ["React", "Three.js", "R3F", "Sass", "Node.js"],
+    "stack": ["React", "Three.js", "R3F", "Sass", "Node.js", "Express"],
     "teamSize": "-",
     "tasks": [
       "모델 업로드 및 조정: 사용자가 `.glb` 또는 `.gltf` 형식의 3D 모델을 업로드하고, 크기, 위치, 회전 값을 슬라이더를 사용하여 직관적으로 조정 가능하도록 구현하였습니다.",
@@ -96,7 +96,7 @@
   {
     "id": 5,
     "title": "04. 아무 말 대잔치",
-    "description": "카카오테크 부트캠프 클라우드 과정 in JEJU의 개인 프로젝트로, Express와 MySQL을 사용한 게시판 사이트를 구현하여 백엔드와 데이터베이스의 연동을 경험하고 이해도를 높이기 위한 목적으로 진행되었습니다.",
+    "description": "카카오테크 부트캠프 클라우드 과정 in JEJU의 개인 프로젝트로, Express와 MySQL을 사용한 게시판 사이트를 구현하여\n 백엔드와 데이터베이스의 연동을 경험하고 이해도를 높이기 위한 목적으로 진행되었습니다.",
     "period": "2024.04 ~ 2024.07",
     "role": "프론트엔드 개발",
     "stack": ["Javascript, React, Express, MySQL"],

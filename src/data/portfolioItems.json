@@ -65,7 +65,7 @@
   {
     "id": 8,
     "title": "Gaussian Splatting Viewer",
-    "overview": "동영상 또는 YouTube URL을 입력받아 포인트 클라우드(3D 데이터)를 생성하고 이를 웹에서 시각화하는 웹 서비스",
+    "overview": "동영상 또는 YouTube URL을 입력받아 포인트 클라우드(.splat 3D 데이터)를 생성하고 이를 웹에서 시각화하는 웹 서비스",
     "period": "24.11.28 ~ 25.02.10",
     "role": "프론트엔드 및 백엔드 개발",
     "imageUrl": "/gs-viewer/Viewer.png",
