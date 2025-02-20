@@ -50,7 +50,50 @@ const ResumePage = () => {
           <p key={index}>{paragraph}</p>
         ))}
       </div>
-
+      {/* Timeline Section */}
+      <div className={styles.timeline}>
+        <h1>Timeline</h1>
+        <div className={styles.timelineItem}>
+          <div className={styles.timelineDate}>2025.02</div>
+          <div className={styles.timelineContent}>
+            엔씨소프트 단기 계약직 계약 종료
+          </div>
+        </div>
+        <div className={styles.timelineItem}>
+          <div className={styles.timelineDate}>2024.11</div>
+          <div className={styles.timelineContent}>엔씨소프트 단기 계약직</div>
+        </div>
+        <div className={styles.timelineItem}>
+          <div className={styles.timelineDate}>2024.10</div>
+          <div className={styles.timelineContent}>
+            카카오테크 부트캠프 클라우드 과정 in JEJU 수료
+          </div>
+        </div>
+        <div className={styles.timelineItem}>
+          <div className={styles.timelineDate}>2024.04</div>
+          <div className={styles.timelineContent}>
+            카카오테크 부트캠프 클라우드 과정 in JEJU
+          </div>
+        </div>
+        <div className={styles.timelineItem}>
+          <div className={styles.timelineDate}>2024.02</div>
+          <div className={styles.timelineContent}>
+            계명대학교 게임소프트웨어학과 졸업
+          </div>
+        </div>
+        <div className={styles.timelineItem}>
+          <div className={styles.timelineDate}>2019.03</div>
+          <div className={styles.timelineContent}>
+            계명대학교 게임소프트웨어학과 전과
+          </div>
+        </div>
+        <div className={styles.timelineItem}>
+          <div className={styles.timelineDate}>2018.03</div>
+          <div className={styles.timelineContent}>
+            계명대학교 교통공학과 입학
+          </div>
+        </div>
+      </div>
       {/* Skills Section */}
       <div className={styles.skills}>
         <h1>{skillsData.title}</h1>
@@ -72,7 +115,7 @@ const ResumePage = () => {
           </div>
         ))}
       </div>
-
+      {/* Projects Section */}
       <div className={styles.projects}>
         <h1>Projects</h1>
         {projects.map((project) => (
@@ -143,50 +186,6 @@ const ResumePage = () => {
             </div>
           </div>
         ))}
-      </div>
-
-      <div className={styles.timeline}>
-        <h1>Timeline</h1>
-        <div className={styles.timelineItem}>
-          <div className={styles.timelineDate}>2018.03</div>
-          <div className={styles.timelineContent}>
-            계명대학교 교통공학과 입학
-          </div>
-        </div>
-        <div className={styles.timelineItem}>
-          <div className={styles.timelineDate}>2019.03</div>
-          <div className={styles.timelineContent}>
-            계명대학교 게임소프트웨어학과 전과
-          </div>
-        </div>
-        <div className={styles.timelineItem}>
-          <div className={styles.timelineDate}>2024.02</div>
-          <div className={styles.timelineContent}>
-            계명대학교 게임소프트웨어학과 졸업
-          </div>
-        </div>
-        <div className={styles.timelineItem}>
-          <div className={styles.timelineDate}>2024.04</div>
-          <div className={styles.timelineContent}>
-            카카오테크 부트캠프 클라우드 과정 in JEJU
-          </div>
-        </div>
-        <div className={styles.timelineItem}>
-          <div className={styles.timelineDate}>2024.10</div>
-          <div className={styles.timelineContent}>
-            카카오테크 부트캠프 클라우드 과정 in JEJU 수료
-          </div>
-        </div>
-        <div className={styles.timelineItem}>
-          <div className={styles.timelineDate}>2024.11</div>
-          <div className={styles.timelineContent}>엔씨소프트 단기 계약직</div>
-        </div>
-        <div className={styles.timelineItem}>
-          <div className={styles.timelineDate}>2025.02</div>
-          <div className={styles.timelineContent}>
-            엔씨소프트 단기 계약직 계약 종료
-          </div>
-        </div>
       </div>
     </div>
   );
