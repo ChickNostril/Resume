@@ -14,7 +14,7 @@
       "Uvicorn",
       "AWS S3"
     ],
-    "teamSize": "총 5명 (FE/BE 1명, GPU 서버 개발 1명, PM 1명)",
+    "teamSize": "총 3명 (FE/BE 1명, GPU 서버 개발 1명, PM 1명)",
     "tasks": [
       "프로젝트 생성 및 파일 업로드 - 사용자가 동영상(.mp4, .mov) 파일을 업로드하거나 YouTube URL을 입력하여 프로젝트를 생성하고, 소스 타입(FISHEYE, EQUIRECT, VANILLA)을 선택할 수 있도록 구현.",
       "Gaussian Splatting 데이터 처리 - 업로드된 데이터를 GPU 서버에 전송하여 Gaussian Splatting 알고리즘으로 처리하고, 결과를 .ply 파일로 S3에 저장한 후 .splat 파일로 변환하는 기능 구현.",
@@ -26,13 +26,34 @@
     "links": {
       "github": "https://github.com/ChickNostril/GSViewer",
       "portfolio": "/portfolio/gsViewer",
-      "demo": "https://github.com/ChickNostril/GSViewer"
+      "demo": "https://www.notion.so/Gaussian-Splatting-Web-Viewer-19126c839d63806bacdecc4c029b9c23"
     },
     "image": "/gs-viewer/Viewer.png"
   },
   {
     "id": 2,
-    "title": "07. FA-WebViewer",
+    "title": "07. 숨 쉬는 다람쥐 숨다",
+    "description": "공공 데이터 API를 활용하여 날씨와 대기질 정보를 제공하는 웹 서비스로, 사용자에게 실시간 환경 정보를 제공합니다.\n또한, 다람쥐 육성 게이미피케이션 요소를 통해 사용자가 다양한 종류의 다람쥐를 육성하며 일일 미션을 수행할 수 있는 기능을 구현하였습니다.",
+    "period": "2024.07.22 ~ 2024.09.13",
+    "role": "프론트엔드 개발",
+    "stack": ["TypeScript", "React", "CSS", "Zustand"],
+    "teamSize": "총 5명 (FE 2명, BE 3명)",
+    "tasks": [
+      "날씨/대기질 정보 제공: 공공 데이터 API를 활용하여 실시간 날씨 및 대기질 정보를 조회할 수 있는 서비스를 구현하였습니다.",
+      "상태 관리: Zustand를 사용하여 전역 상태 관리를 구현하여 데이터의 일관성과 효율적인 업데이트를 보장하였습니다.",
+      "인증/인가 기능: Kakao OAuth를 통해 사용자가 로그인할 수 있도록 하였으며, 로그인 시 JWT 토큰을 발급하고 이를 통해 사용자별 다람쥐 정보를 불러옵니다.",
+      "게이미피케이션: 사용자는 다양한 종류의 다람쥐 (예: 사무라이 다람쥐, 기사 다람쥐 등)를 육성할 수 있으며, 일일 미션을 완료하여 도토리를 획득하고 다람쥐를 성장시키는 시스템을 구현하였습니다."
+    ],
+    "links": {
+      "github": "https://github.com/100-hours-a-week/5-team-daramgil-sumda-fe",
+      "portfolio": "/portfolio/sumda",
+      "demo": "https://www.canva.com/design/DAGS9yrQEfk/f-B0GbF_yLyY3kCt5tN4Vg/edit?utm_content=DAGS9yrQEfk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+    },
+    "image": "/sumda/sumda-final.png"
+  },
+  {
+    "id": 3,
+    "title": "06. FA-WebViewer",
     "description": "FA-WebViewer는 사내용 프로젝트 시연용 웹 개발 업무로 수행한 프로젝트로,\n음성 발화 파일(.wav)을 기반으로 애니메이션을 생성하고 이를 시각화하는 기능을 제공하는 웹 애플리케이션입니다.\n3D 모델과 애니메이션 데이터를 효율적으로 처리할 수 있습니다.",
     "period": "2024-12-04 ~ 2024-12-20",
     "role": "프론트엔드 개발",
@@ -52,8 +73,8 @@
     "image": "/fa-webviewer/app1_play.png"
   },
   {
-    "id": 3,
-    "title": "06. Auto-Rigger Tool",
+    "id": 4,
+    "title": "05. Auto-Rigger Tool",
     "description": "Auto-Rigger Tool은 웹 페이지 개발 업무의 일환으로 수행한 프로젝트로,\n3D 아티스트, 애니메이터 및 개발자를 위해 설계된 웹 기반 3D 리깅 서비스입니다.\n사용자는 3D 모델을 업로드하고, 크기와 위치를 조정하며, 마커를 배치하여 스켈레톤을 생성하고 미리보기할 수 있습니다.\n이 서비스는 직관적인 UI와 효율적인 워크플로우를 통해 리깅 작업의 생산성을 높이는 것을 목표로 합니다.",
     "period": "2024.11.12 ~ 2024.11.29",
     "role": "프론트엔드 개발",
@@ -71,27 +92,6 @@
       "demo": "https://github.com/ChickNostril/autoRigger"
     },
     "image": "/auto-rigger/step3.png"
-  },
-  {
-    "id": 4,
-    "title": "05. 숨 쉬는 다람쥐 숨다",
-    "description": "공공 데이터 API를 활용하여 날씨와 대기질 정보를 제공하는 웹 서비스로, 사용자에게 실시간 환경 정보를 제공합니다.\n또한, 다람쥐 육성 게이미피케이션 요소를 통해 사용자가 다양한 종류의 다람쥐를 육성하며 일일 미션을 수행할 수 있는 기능을 구현하였습니다.",
-    "period": "2024.07.22 ~ 2024.09.13",
-    "role": "프론트엔드 개발",
-    "stack": ["TypeScript", "React", "CSS", "Zustand"],
-    "teamSize": "총 5명 (FE 2명, BE 3명)",
-    "tasks": [
-      "날씨/대기질 정보 제공: 공공 데이터 API를 활용하여 실시간 날씨 및 대기질 정보를 조회할 수 있는 서비스를 구현하였습니다.",
-      "상태 관리: Zustand를 사용하여 전역 상태 관리를 구현하여 데이터의 일관성과 효율적인 업데이트를 보장하였습니다.",
-      "인증/인가 기능: Kakao OAuth를 통해 사용자가 로그인할 수 있도록 하였으며, 로그인 시 JWT 토큰을 발급하고 이를 통해 사용자별 다람쥐 정보를 불러옵니다.",
-      "게이미피케이션: 사용자는 다양한 종류의 다람쥐 (예: 사무라이 다람쥐, 기사 다람쥐 등)를 육성할 수 있으며, 일일 미션을 완료하여 도토리를 획득하고 다람쥐를 성장시키는 시스템을 구현하였습니다."
-    ],
-    "links": {
-      "github": "https://github.com/100-hours-a-week/5-team-daramgil-sumda-fe",
-      "portfolio": "/portfolio/sumda",
-      "demo": "https://www.canva.com/design/DAGS9yrQEfk/f-B0GbF_yLyY3kCt5tN4Vg/edit?utm_content=DAGS9yrQEfk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-    },
-    "image": "/sumda/sumda-final.png"
   },
   {
     "id": 5,
