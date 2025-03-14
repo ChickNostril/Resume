@@ -244,8 +244,7 @@
 
   "autoRiggerTool": {
     "title": "Auto-Rigger Tool",
-    "imageUrl": [
-    ],
+    "imageUrl": ["/auto-rigger/1.png", "/auto-rigger/2.png", "/auto-rigger/3.png", "/auto-rigger/4.png"],
     "description": "3D 모델 업로드 및 리깅 작업을 간편하게 수행할 수 있는 웹 기반 3D 리깅 서비스",
     "overview": {
       "name": "Auto-Rigger Tool",
@@ -297,8 +296,7 @@
 
   "faWebViewer": {
     "title": "FA-WebViewer",
-    "imageUrl": [
-    ],
+    "imageUrl": ["/fa-webviewer/app1.png", "/fa-webviewer/app2.png", "/fa-webviewer/app2_2.png"],
     "description": "음성 발화 파일(`.wav`)을 기반으로 애니메이션을 생성하고 이를 시각화하는 기능을 제공하는 웹 애플리케이션",
     "overview": {
       "name": "FA-WebViewer",
@@ -353,7 +351,7 @@
   "gsViewer": {
     "title": "Gaussian Splatting Viewer",
     "imageUrl": [
-      
+      "/gs-viewer/Viewer.png", "/gs-viewer/Viewer2.png"
     ],
     "description": "동영상 또는 YouTube URL을 입력받아 Gaussian Splatting 기술을 활용하여 3D 포인트 클라우드 데이터를 생성하고 이를 웹에서 시각화하는 프로젝트.",
     "overview": {

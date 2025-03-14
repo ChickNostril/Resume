@@ -50,7 +50,7 @@
     "overview": "3D 모델 업로드 및 리깅 작업을 간편하게 수행할 수 있는 웹 기반 3D 리깅 서비스",
     "period": "24.11.12 ~ 24.11.29",
     "role": "프론트엔드 개발",
-    "imageUrl": "/auto-rigger/step1.png",
+    "imageUrl": "/auto-rigger/1.png",
     "detailLink": "/portfolio/autoRiggerTool"
   },
   {
@@ -59,7 +59,7 @@
     "overview": "음성 발화 파일(`.wav`)을 기반으로 애니메이션을 생성하고 이를 시각화하는 기능을 제공하는 웹 애플리케이션",
     "period": "24.12.04 ~ 24.12.20",
     "role": "프론트엔드 개발",
-    "imageUrl": "/fa-webviewer/app1_play.png",
+    "imageUrl": "/fa-webviewer/app2_2.png",
     "detailLink": "/portfolio/faWebViewer"
   },
   {
