@@ -9,7 +9,7 @@ import PortfolioDetailPage from "./routes/PortfolioDetailPage";
 
 const App = () => {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="" element={<ResumePage />} />
